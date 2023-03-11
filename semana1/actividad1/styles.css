@@ -4,19 +4,32 @@
 }
 
 body {
-    background-color: grey;
     margin: 0px;
     padding: 0px;
+    background-image: url("./imagenes/stormwind.jpg");
+    background-size: cover;
+    
+}
+
+.head {
+    background-color: rgb(40,40,40);
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 
-.head {
-    background-image: url("./imagenes/background_home.jpg");
-    background-size: cover;
-    height: 350px;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
+/* CONVERTIR A DIV */
+.nombre-pyme {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.inicio-sesion {
+    color:lightsteelblue;
 }
 
 .categorias {
@@ -24,5 +37,5 @@ body {
 }
 
 .categoria {
-    
+    flex: 1;
 }
