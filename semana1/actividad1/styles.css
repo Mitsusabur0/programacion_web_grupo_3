@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.head {
+    background-image: url("./imagenes/background_home.jpg");
+    background-size: cover;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.categorias {
+    display: flex;
+}
+
+.categoria {
+    
+}

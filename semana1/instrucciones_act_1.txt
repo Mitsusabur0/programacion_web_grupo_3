@@ -1,0 +1,16 @@
+Pagina principal
+    nombre de la pyme
+    listado de categorias (5 categorías, 2 juegos c/u)
+        hipervinculo
+        imagen
+
+pagina por categorias
+    ficha para cada juego
+        imagen
+        nombre
+        breve descripcion
+        precio
+    vinculos
+        de una página a otra
+        al inicio
+
