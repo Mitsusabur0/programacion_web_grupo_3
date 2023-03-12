@@ -14,3 +14,9 @@ pagina por categorias
         de una página a otra
         al inicio
 
+categorias:
+    RTS
+    Platform
+    FPS
+    Terror
+    RPG
