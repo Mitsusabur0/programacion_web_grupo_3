@@ -51,7 +51,7 @@ body {
 }
 
 
-.titulo-cat {
+.titulo-categoria {
     font-size: 40px;
     margin-top: 100px;
     text-align: center;
@@ -60,12 +60,31 @@ body {
 .categorias {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    align-content: center;
+    row-gap:50px;
+    margin:50px;
 }
 
 .categoria {
-    flex: 1;
+    border:solid black 5px;
+    width: 500px;
+    height:300px;
+    position:relative;
+    text-align: center;
+}
 
+.categoria-img {
+    width: 490px;
+    height: 290px;
+}
+
+.nombre-categoria {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    /* background-color: aqua; */
 }

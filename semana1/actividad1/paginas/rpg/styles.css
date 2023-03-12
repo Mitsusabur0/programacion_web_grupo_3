@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url("./imagenes/stormwind.jpg");
+    background-image: url("./background.jpg");
     background-size: cover;
     
 }
@@ -20,8 +20,6 @@ body {
     
 }
 
-
-/* CONVERTIR A DIV */
 .nombre-pyme {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -38,34 +36,72 @@ body {
     height: 35px;
 }
 
-.inicio-sesion {
+.link-paginas {
     color:lightsteelblue;
-    text-align: right;
+    font-size: 20px;
+    /* text-align: right; */
+}
+
+.link-home {
+    color: white;
+    font-size: 20px;
 }
 
 .div-inicio-sesion {
     flex:1 0 0;
     text-align: right;
     margin-right: 20px;
-
 }
 
+/* TERMINO DE HEADER */
 
-.titulo-cat {
+.titulo-categoria {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nombre-categoria {
+    color: white;
+    padding: 5px;
     font-size: 40px;
-    margin-top: 100px;
+}
+
+.juegos {
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
     text-align: center;
 }
 
-.categorias {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
+.juego {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid black 20px;
+    width: 400px;
+    height: auto;
+}
+/* .juego-img {
+    height: 500px;
+    width:auto;
+} */
+
+.texto-juego {
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+}
+.juego-1 {
+
 }
 
-.categoria {
-    flex: 1;
+.juego-2 {
 
 }
