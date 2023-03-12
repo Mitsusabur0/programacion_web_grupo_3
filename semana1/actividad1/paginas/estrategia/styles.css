@@ -86,10 +86,6 @@ body {
     width: 400px;
     height: auto;
 }
-/* .juego-img {
-    height: 500px;
-    width:auto;
-} */
 
 .texto-juego {
     font-size: 20px;
@@ -97,11 +93,4 @@ body {
     padding-top: 20px;
     text-align: center;
     background-color: black;
-}
-.juego-1 {
-
-}
-
-.juego-2 {
-
 }

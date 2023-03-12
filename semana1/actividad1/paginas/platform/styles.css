@@ -6,7 +6,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url("./background.jpg");
+    background-image: url("./background.webp");
     background-size: cover;
     
 }
@@ -97,11 +97,4 @@ body {
     padding-top: 20px;
     text-align: center;
     background-color: black;
-}
-.juego-1 {
-
-}
-
-.juego-2 {
-
 }
